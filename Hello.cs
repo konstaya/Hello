@@ -1,7 +1,10 @@
 using System;
-
-class MainClass {
-  public static void Main (string[] args) {
-    Console.WriteLine ("Hello World");
+namespace Q
+{  
+class MainClass 
+  {
+    public static void Main (string[] args) {
+      Console.WriteLine ("Hello World");
+    }
   }
 }
