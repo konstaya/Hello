@@ -20,6 +20,7 @@ namespace LAB1
 
         public int StackSize
         {
+            //размер стека
             get
             {
                 return size;
@@ -28,6 +29,7 @@ namespace LAB1
 
         public void Add(T element)
         {
+            //добавление нового элемента
             if (size == array.Length)
             {
                 T[] buf = new T[size * 2];
@@ -41,6 +43,7 @@ namespace LAB1
 
         public T Pop()
         {
+            //удаление "верхушки" стека
             if (size == 0)
             {
                 throw new Exception();
@@ -52,6 +55,11 @@ namespace LAB1
 
         public T GiveElement(int i)
         {
+            //возвращает элемент из стека
+            if (i >= size)
+            {
+                throw new Exception();
+            }
             return array[i];
         }
 
