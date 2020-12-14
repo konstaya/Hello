@@ -1,0 +1,68 @@
+{
+  "$type": "System.Collections.Generic.List`1[[Lab3.Employee, Lab3]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "Lab3.EmplFixedWage, Lab3",
+      "Wage": 275000.0,
+      "Post": 1,
+      "Name": "Кузнецова ТК",
+      "Date": "20.10.2001",
+      "IsFixedPay": true,
+      "ID": 0
+    },
+    {
+      "$type": "Lab3.EmplFixedWage, Lab3",
+      "Wage": 129500.0,
+      "Post": 6,
+      "Name": "Дремин МА",
+      "Date": "01.12.2000",
+      "IsFixedPay": true,
+      "ID": 1
+    },
+    {
+      "$type": "Lab3.EmplFixedWage, Lab3",
+      "Wage": 129500.0,
+      "Post": 6,
+      "Name": "Смиронов СС",
+      "Date": "05.12.1993",
+      "IsFixedPay": true,
+      "ID": 4
+    },
+    {
+      "$type": "Lab3.EmplHourlyWage, Lab3",
+      "Wage": 99008.0,
+      "Post": 3,
+      "Name": "Увереный ГГ",
+      "Date": "28.01.1985",
+      "IsFixedPay": false,
+      "ID": 5
+    },
+    {
+      "$type": "Lab3.EmplHourlyWage, Lab3",
+      "Wage": 34794.24,
+      "Post": 10,
+      "Name": "Путин ВП",
+      "Date": "09.10.1955",
+      "IsFixedPay": false,
+      "ID": 6
+    },
+    {
+      "$type": "Lab3.EmplHourlyWage, Lab3",
+      "Wage": 31616.0,
+      "Post": 9,
+      "Name": "Иванова ИИ",
+      "Date": "23.03.2020",
+      "IsFixedPay": false,
+      "ID": 2
+    },
+    {
+      "$type": "Lab3.EmplHourlyWage, Lab3",
+      "Wage": 31616.0,
+      "Post": 9,
+      "Name": "Петрова ПП",
+      "Date": "01.03.2020",
+      "IsFixedPay": false,
+      "ID": 3
+    }
+  ]
+}
